@@ -1,0 +1,13 @@
+{
+  "name": "Pogify",
+  "version": "1.0",
+  "description": "",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [ {
+    "js": ["replace.js"],
+    "matches": ["<all_urls>"]
+  } ],
+  "manifest_version": 2
+}
