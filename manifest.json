@@ -3,7 +3,8 @@
   "version": "1.0",
   "description": "",
   "browser_action": {
-    "default_icon": "images/pepe.png"
+    "default_icon": "images/pepe.png",
+    "default_popup": "GUI.html"
   },
   "content_scripts": [ {
     "js": ["replace.js"],
